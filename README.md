@@ -1,2 +1,3 @@
 # odin-recipes
-The Odin Project first project for HTML
+
+The first "The Odin Project" activity for HTML
