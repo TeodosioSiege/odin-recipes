@@ -15,10 +15,17 @@ main {
   margin: 0 auto;
   min-height: 100vh;
   padding: 1em;
+  text-align: center;
 }
 
 h1 {
   line-height: 2;
+}
+
+.index {
+  list-style-type: none;
+  font-size: 1.25em;
+  line-height: 1.5;
 }
 
 a:focus {
