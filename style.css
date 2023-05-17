@@ -6,4 +6,11 @@
 
 body {
   font-family: sans-serif;
+  background-color: hsl(180, 21%, 91%);
+}
+main {
+  background-color: white;
+  max-width: 750px;
+  margin: 0 auto;
+  min-height: 100vh;
 }
