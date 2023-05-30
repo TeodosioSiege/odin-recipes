@@ -14,16 +14,26 @@ main {
   max-width: 750px;
   margin: 0 auto;
   height: 100vh;
-  padding-top: 50%;
   text-align: center;
   position: relative;
+  background: linear-gradient(
+      45deg,
+      rgba(0, 128, 128, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url("./img/main.webp");
+  background-size: cover;
+
+  font-size: 1.5em;
 }
 
 article {
-  border: 1px solid teal;
+  border: 3px solid rgb(145, 236, 236);
+  padding: 1em;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -37,7 +47,17 @@ h1 {
 }
 
 a:focus {
-  outline: 2px solid teal;
+  outline: 2px solid rgb(145, 236, 236);
   padding: 0 0.25em;
   border-radius: 2px;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+a:hover {
+  transform: scale(1.05);
+  color: rgb(3, 56, 56);
 }
