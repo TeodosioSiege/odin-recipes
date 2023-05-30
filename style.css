@@ -88,3 +88,15 @@ a:hover {
   font-size: 0.75em;
   font-style: italic;
 }
+
+.ingredients {
+  padding: 1em;
+}
+h2 {
+  line-height: 2;
+}
+
+.ingredients ul {
+  text-align: left;
+  margin-left: 5em;
+}
