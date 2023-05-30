@@ -89,14 +89,18 @@ a:hover {
   font-style: italic;
 }
 
-.ingredients {
+.ingredients,
+.steps {
   padding: 1em;
 }
+
 h2 {
   line-height: 2;
+  color: teal;
 }
 
-.ingredients ul {
+.ingredients ul,
+.steps ol {
   text-align: left;
   margin-left: 5em;
 }
