@@ -104,3 +104,8 @@ h2 {
   text-align: left;
   margin-left: 5em;
 }
+
+.link-home {
+  display: inline-block;
+  margin: 1em;
+}
